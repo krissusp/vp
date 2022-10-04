@@ -1,0 +1,4 @@
+Päeva kommentaaride tabel:
+CREATE TABLE `if22_krissusp`.`vp_daycomment_1` (`id` INT(11) NOT NULL AUTO_INCREMENT , `comment` VARCHAR(140) NOT NULL , `grade` INT(2) NOT NULL , `added` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `deleted` DATETIME NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+Filmide tabel:
+CREATE TABLE `if22_krissusp`.`veebilehe_filmid` (`id` INT(11) NOT NULL AUTO_INCREMENT , `title` VARCHAR(50) NOT NULL , `year` INT(11) NOT NULL , `duration` INT(11) NOT NULL , `genre` VARCHAR(20) NOT NULL , `studio` VARCHAR(20) NOT NULL , `director` VARCHAR(20) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
